@@ -6,7 +6,7 @@ CORS(app)
 
 @app.route('/api/test', methods=['GET'])
 def test_api():
-    return jsonify({"message": "Backend is live!"})
+    return jsonify({"message": "Hello from your Flask backend!"})
 
 if __name__ == '__main__':
     app.run(debug=True, port=5001)
